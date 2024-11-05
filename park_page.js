@@ -5,18 +5,19 @@ function addLocation(text, target) {
     target.appendChild(new Option(text));
 }
 function Park(parkObject){
-    const e = document.createElement("pre");
+    const e = document.createElement("div");
+    e.classList.add("box")
     e.innerHTML = `
-        LocationID: "${parkObject.LocationID}",
-        LocationName: "${parkObject.LocationName}",
-        Address: "${parkObject.Address}",
-        City: "${parkObject.City}",
-        State: "${parkObject.State}",
-        ZipCode: ${parkObject.ZipCode},
-        Phone: "${parkObject.Phone}",
-        Fax: "${parkObject.Fax}",
-        Latitude: ${parkObject.Latitude},
-        Longitude: ${parkObject.Longitude},
+       <h4> ${parkObject.LocationName}</h4><br>
+        LocationID: "${parkObject.LocationID}"<br>
+        Address: "${parkObject.Address}"<br>
+        City: "${parkObject.City}"<br>
+        State: "${parkObject.State}"<br>
+        ZipCode: ${parkObject.ZipCode}<br>
+        Phone: "${parkObject.Phone}"<br>
+        Fax: "${parkObject.Fax}"<br>
+        Latitude: ${parkObject.Latitude}<br>
+        Longitude: ${parkObject.Longitude}<br>
     `;
     return e;
 }
