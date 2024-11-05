@@ -1,0 +1,33 @@
+{
+    font-display: inherit;
+    background-color: blue;
+
+}
+
+body {
+    background-color:rgb(3, 67, 88); 
+    color: #29f70a; 
+    font-family: Garamond, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+a {
+    color: #66fcf1; 
+    text-decoration:underline;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5e92e0; 
+    text-shadow: 0px 0px 8px rgba(102, 252, 241, 0.8); 
+}
+
+ {
+    margin-top: 1.5rem; 
+}
