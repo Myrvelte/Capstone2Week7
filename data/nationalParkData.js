@@ -211,7 +211,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ande",
+    LocationID: "ANDE",
     LocationName: "Andersonville National Historic Site",
     Address: "496 Cemetery Road",
     City: "Andersonville",
@@ -232,7 +232,7 @@ const nationalParksArray = [
     {
     LocationID: "ANJO",
     LocationName: "Andrew Johnson National Historic Site",
-    Address: "Mailing Address - Andrew Johnson NHS, 121 Monument Ave., GPS Location - Andrew Johnson NHS Visitor Center, 101 North College St.",
+    Address: "Andrew Johnson NHS, 121 Monument Ave., GPS Location - Andrew Johnson NHS Visitor Center, 101 North College St.",
     City: "Greeneville",
     State: "Tennessee",
     ZipCode: 37743,
@@ -249,7 +249,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "ania",
+    LocationID: "ANIA",
     LocationName: "Aniakchak National Monument & Preserve",
     Address: "P.O. Box 245",
     City: "King Salmon",
@@ -288,7 +288,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "apis",
+    LocationID: "APIS",
     LocationName: "Apostle Islands National Lakeshore",
     Address: "415 Washington Ave",
     City: "Bayfield",
@@ -307,7 +307,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "appa",
+    LocationID: "APPA",
     LocationName: "Appalachian National Scenic Trail",
     Address: "P.O. Box 50",
     City: "Harpers Ferry",
@@ -347,7 +347,7 @@ const nationalParksArray = [
     }
     },
     {
-    LocationID: "arpo",
+    LocationID: "ARPO",
     LocationName: "Arkansas Post National Memorial",
     Address: "1741 Old Post Road",
     City: "Gillett",

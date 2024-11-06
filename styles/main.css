@@ -25,12 +25,14 @@ a:hover {
 }
 
  .box{
-    background-color: white;
+    background-color:lightcyan;
     color: black;
     margin:1rem;
     padding:1rem;
     border-radius: 1rem;
     display: inline-block;
     width: 25vw;
-
+    height: 300px;
+    font-family:"Courier New", Courier, monospace;
+    justify-content: center;
  }
