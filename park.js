@@ -1,6 +1,5 @@
 // national_parks_table.js
-// ADD THIS INSTEAD TO DISPLAY RESULTS AS A TABLE
-// CREDITS TO JALEN THE GOAT
+
 
 document.addEventListener("DOMContentLoaded", () => {
     // GET REFERENCES TO DOM ELEMENTS
