@@ -11,9 +11,10 @@
     <script src="./data/nationalParkData.js"></script>
     <script src="./data/parkTypeData.js"></script>
     <script src="./data/locationData.js"></script>
-    <script src="./park_page.js"></script>
+    <script src="./park.js"></script>
 </head>
-<body><nav class="navbar navbar-expand-lg bg-body-tertiary">
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">Home</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,16 +23,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          <a class="nav-link active" aria-current="page" href="./index.html">Welcome</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./mountains.html">Mountains</a>
+          <a class="nav-link" href="./mountains.html">MOUNTAINS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./parks.html">Parks</a>
+          <a class="nav-link" href="./parks.html">PARKS</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="./aboutus.html">About Us</a>
+          <a class="nav-link" href="./aboutus.html">ABOUT US</a>
               </li>
             </ul>
           </div>
@@ -42,16 +43,22 @@
     </nav> -->
     <main>
         <h1>Parks</h1>
-        <div class="filters">
-            <select name="parkTypeSelect" id="parkTypeSelect">
-                <option value="">Select a park type...</option>
-            </select>
-            <select name="parkLocationSelect" id="parkLocationSelect">
-                <option value="">Select a park Location</option>
-            </select>
-            <button id="filterButton">Filter</button>
-        </div>
-        <div id="results"></div>
+        <!-- Dropdowns for location and park type -->
+    <select id="location-dropdown">
+      <option value="">Select Location...</option>
+  </select>
+  <select id="park-type-dropdown">
+      <option value="">Select Park Type...</option>
+  </select>
+
+  <!-- Buttons for search, view all, and clear results -->
+  <button id="search-button">Search Parks</button>
+  <button id="view-all-button">View All Parks</button>
+  <button id="clear-results-button">Clear Results</button>
+
+  <!-- Container to display search results -->
+  <div id="results"></div>
+
     </main>
     <footer>
         Copyright 2024 &copy;
