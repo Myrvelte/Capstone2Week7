@@ -1,7 +1,7 @@
 
 body {
-    background-color:rgb(3, 67, 88); 
-    color: #29f70a; 
+    background-color:rgb(11, 148, 193); 
+    color: #30fa11; 
     font-family: Garamond, serif;
     display: flex;
     flex-direction: column;
@@ -9,6 +9,7 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
+    background-image:url(/data/images/mountain-7627493_1280\ \(1\).jpg)
 }
 
 a {
@@ -21,18 +22,20 @@ a {
 
 a:hover {
     color: #5e92e0; 
-    text-shadow: 0px 0px 8px rgba(102, 252, 241, 0.8); 
+    text-shadow: 0px 0px 8px rgba(94, 232, 129, 0.8); 
 }
 
  .box{
-    background-color:lightcyan;
-    color: black;
+    background-color:rgb(18, 234, 234);
+    color: rgba(0, 0, 0, 0.815);
     margin:1rem;
     padding:1rem;
     border-radius: 1rem;
-    display: inline-block;
-    width: 25vw;
-    height: 300px;
+    display: inline-table;
+    width: 30vw;
+    height: 360px;
     font-family:"Courier New", Courier, monospace;
     justify-content: center;
+
+   
  }
