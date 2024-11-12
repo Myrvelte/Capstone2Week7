@@ -5,12 +5,12 @@ body {
     font-family: Garamond, serif;
     margin: 1;
     padding: 1rem;
-    /* background-image:url(/data/images/paradise-pictures-plqdetszywom73wk.webp) */
+    background-image:url(/data/images/paradise-pictures-plqdetszywom73wk.webp)
    
 
 }
 
 #carouselExampleFade{
-  width: 100%;
+  width: 45%;
 }
 
