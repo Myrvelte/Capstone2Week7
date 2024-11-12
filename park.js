@@ -49,7 +49,11 @@ document.addEventListener("DOMContentLoaded", () => {
           : true;
         return matchesLocation && matchesType;
       });
-  
+      if(searchText.value) {
+        filteredParks = filteredParks.filter(p => Object.values(p)
+        .join(" ").toLowerCase()
+        .includes(searchText.value.toLowerCase()));     
+    }
       displayResults(filteredParks);
     };
   
