@@ -1,12 +1,40 @@
 
 body {
-    background-color:rgb(207, 235, 244); 
-    color:whitesmoke; 
+    background-color:rgba(118, 221, 239, 0.573); 
+    /* background-clip: content-box url(../data/images/mountclouds.mp4); */
+    color:rgb(76, 139, 211); 
     padding: 3px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    text-decoration:wavy;
+    /* border-left-color: lightblue;
+    text-shadow: floralwhite;
     margin: 1
-    padding: 1px;
-    background-image:url(../data/images/Smith_Mountain_Lake_Virginia.jpg)
+    padding: 1px; */ */
+
+  .content {
+    position:fixed;
+    bottom: 2;
+    background: rgba(77, 212, 23, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
    
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width:100%
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #a7c2df;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #e545c5;
+    color: black;
+  }
 
 }
